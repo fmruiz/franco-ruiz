@@ -12,6 +12,10 @@ export const MainContainer = styled.div`
   overflow: hidden;
   user-select: none;
 
+  a {
+    text-decoration: none;
+  }
+
   /* change about title */
   .change__about::after {
     content: "Hello.";
