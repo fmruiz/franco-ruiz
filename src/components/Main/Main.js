@@ -19,7 +19,9 @@ export const Main = () => (
       <Link to="/work">
         <SecondWord className="change__work"></SecondWord>
       </Link>
-      <ThirdWord className="change__contact"></ThirdWord>
+      <Link to="/contact">
+        <ThirdWord className="change__contact"></ThirdWord>
+      </Link>
     </MainTitle>
     <MainImage src={MainImg} />
   </MainContainer>
