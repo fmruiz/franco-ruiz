@@ -58,13 +58,13 @@ export const FirstWord = styled.div`
 
 export const SecondWord = styled.div`
   font-size: 190px;
-  color: yellow;
+  color: #ff1744;
   margin: 0 auto;
 `;
 
 export const ThirdWord = styled.div`
   font-size: 190px;
-  color: yellow;
+  color: #ff1744;
   margin: 0 auto;
 `;
 
