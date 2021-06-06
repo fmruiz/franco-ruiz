@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { LinkMain } from "../LinkMain/LinkMain";
 import {
   LinkContainer,
@@ -11,10 +12,9 @@ import {
 
 export const Work = () => {
   const workElements = [
-    { title: "Personal Projects", subtitle: "Personal goals" },
-    { title: "Fenix Forward IT", subtitle: "Software factory" },
+    { title: "Personal Projects", subtitle: "Personal goals", path: "personal" },
+    { title: "Fenix Forward IT", subtitle: "Software factory", path: "fenix" },
   ];
-
   return (
     <WorkContainer>
       <LinkContainer>
@@ -22,10 +22,12 @@ export const Work = () => {
       </LinkContainer>
       <WorkItems>
         {workElements.map((w, i) => (
-          <WorkItemContainer key={i} className="work__item">
-            <WorkItemTitle>{w.title}</WorkItemTitle>
-            <WorkItemParagraph>{w.subtitle}</WorkItemParagraph>
-          </WorkItemContainer>
+          <Link to={`/${w.path}`}>
+            <WorkItemContainer key={i} className="work__item">
+              <WorkItemTitle>{w.title}</WorkItemTitle>
+              <WorkItemParagraph>{w.subtitle}</WorkItemParagraph>
+            </WorkItemContainer>
+          </Link>
         ))}
       </WorkItems>
     </WorkContainer>

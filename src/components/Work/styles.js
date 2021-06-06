@@ -7,6 +7,10 @@ export const WorkContainer = styled.div`
   flex-direction: column;
   user-select: none;
 
+  a {
+    text-decoration: none;
+  }
+
   .work__item {
     transition: all 0.5s;
   }
