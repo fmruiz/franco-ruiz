@@ -5,9 +5,18 @@ import { Work } from "./components/Work/Work";
 import { Contact } from "./components/Contact/Contact";
 import { Fenix } from "./components/Fenix/Fenix";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import AnimatedCursor from "react-animated-cursor";
 
 export const App = () => (
   <Router>
+    <AnimatedCursor
+      innerSize={8}
+      outerSize={8}
+      color="101, 31, 255"
+      outerAlpha={0.5}
+      innerScale={2}
+      outerScale={5}
+    />
     <Switch>
       <Route path="/about">
         <About />

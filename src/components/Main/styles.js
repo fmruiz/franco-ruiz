@@ -14,6 +14,7 @@ export const MainContainer = styled.div`
 
   a {
     text-decoration: none;
+    cursor: none;
   }
 
   /* change about title */

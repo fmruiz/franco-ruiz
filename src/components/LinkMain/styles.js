@@ -5,6 +5,7 @@ export const LinkMainContainer = styled.div`
 
   a {
       text-decoration: none;
+      cursor: none;
   }
   .link__main {
     transition: all 0.5s;

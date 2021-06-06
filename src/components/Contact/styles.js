@@ -60,6 +60,7 @@ export const ContactContentLink = styled.a`
   text-decoration: none;
   margin-top: 23px;
   transition: all 0.5s;
+  cursor: none;
 
   :hover {
     padding-left: 30px;

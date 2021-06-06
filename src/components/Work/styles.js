@@ -9,6 +9,7 @@ export const WorkContainer = styled.div`
 
   a {
     text-decoration: none;
+    cursor: none;
   }
 
   .work__item {
