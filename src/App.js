@@ -6,6 +6,7 @@ import { Contact } from "./components/Contact/Contact";
 import { Fenix } from "./components/Fenix/Fenix";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AnimatedCursor from "react-animated-cursor";
+import { Personal } from "./components/Personal/Personal";
 
 export const App = () => (
   <Router>
@@ -23,6 +24,9 @@ export const App = () => (
       </Route>
       <Route path="/work">
         <Work />
+      </Route>
+      <Route exact path="/personal">
+        <Personal />
       </Route>
       <Route exact path="/fenix">
         <Fenix />
