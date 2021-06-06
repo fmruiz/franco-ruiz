@@ -15,8 +15,10 @@ import {
   LinkContainer,
 } from "./styles";
 import FenixImage from "../../assets/fenix-dev.jpg";
+import World from "../../assets/world.gif";
 import Worldv1 from "../../assets/worldv1.png";
 import Worldv2 from "../../assets/worldv2.png";
+import Live from "../../assets/live.gif";
 import Livev1 from "../../assets/livev1.png";
 import Livev2 from "../../assets/livev2.png";
 
@@ -74,8 +76,10 @@ export const Fenix = () => (
         every day.
       </FenixContentParagraph>
     </FenixContent>
+    <FenixContentImg src={World} />
     <FenixContentImg src={Worldv1} />
     <FenixContentImg src={Worldv2} />
+    <FenixContentImg src={Live} />
     <FenixContentImg src={Livev2} />
     <FenixContentImg src={Livev1} />
   </FenixContainer>
