@@ -9,11 +9,16 @@ export const LinkMainContainer = styled.div`
   .link__main:hover:after {
     content: "Dev";
   }
+  .white {
+    color: white;
+  }
+  .black {
+    color: black;
+  }
 `;
 
 export const LinkMainName = styled.div`
   margin: 0;
-  color: white;
   font-weight: bold;
   font-size: 30px;
 `;

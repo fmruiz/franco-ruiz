@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { LinkMainContainer, LinkMainName } from "./styles";
 
-export const LinkMain = () => (
+export const LinkMain = ({ color }) => (
   <LinkMainContainer className="link">
     <Link to="/">
-      <LinkMainName className="link__main">franco.</LinkMainName>
+      <LinkMainName className={color === "black" ? "black link__main" : "white link__main"}>franco.</LinkMainName>
     </Link>
   </LinkMainContainer>
 );
