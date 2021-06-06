@@ -29,6 +29,7 @@ export const AboutContent = styled.div`
   margin-left: 200px;
   margin-top: 300px;
   width: 55%;
+  margin-bottom: 300px;
 `;
 
 export const AboutContentTitle = styled.h3`
