@@ -48,4 +48,5 @@ export const AboutContentParagraph = styled.p`
   margin-bottom: 0;
   color: white;
   font-size: 23px;
+  font-weight: 300;
 `;

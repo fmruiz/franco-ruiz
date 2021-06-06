@@ -59,6 +59,7 @@ export const FenixContentParagraph = styled.p`
   margin-bottom: 0;
   color: black;
   font-size: 23px;
+  font-weight: 300;
 `;
 
 export const FenixSectionTitle = styled.h3`

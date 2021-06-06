@@ -59,6 +59,7 @@ export const PersonalContentParagraph = styled.p`
   margin-bottom: 0;
   color: black;
   font-size: 23px;
+  font-weight: 300;
 `;
 
 export const PersonalSectionTitle = styled.h3`
