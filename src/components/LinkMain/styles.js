@@ -6,8 +6,15 @@ export const LinkMainContainer = styled.div`
   a {
       text-decoration: none;
   }
+  .link__main {
+    transition: all 0.5s;
+  }
+  .link__main:hover {
+    padding-left: 30px;
+    transition: all 0.5s;
+  }
   .link__main:hover:after {
-    content: "Dev";
+    /* content: "Dev"; */
   }
   .white {
     color: white;
