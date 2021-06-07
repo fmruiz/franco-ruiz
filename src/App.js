@@ -1,7 +1,9 @@
 import React from "react";
+import { Sidebar } from "./components/Sidebar/Sidebar";
+import { AppContainer } from "./styles";
 
 export const App = () => (
-  <>
-    <h1>Hola mundo</h1>
-  </>
+  <AppContainer>
+    <Sidebar />
+  </AppContainer>
 );
