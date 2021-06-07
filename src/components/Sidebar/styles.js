@@ -7,6 +7,13 @@ export const SidebarContainer = styled.div`
   color: white;
   width: 7vw;
   height: 100vh;
+  .main__section {
+    transition: all 0.5s;
+  }
+  .main__section:hover {
+    color: #f50057;
+    transition: all 0.5s;
+  }
 `;
 
 export const SidebarLogoContainer = styled.div`
@@ -67,6 +74,11 @@ export const SidebarSocialContainer = styled.div`
   justify-content: space-around;
   color: #777777;
   .brand__icon {
-      font-size: 20px;
+    font-size: 20px;
+    transition: all 0.5s;
+  }
+  .brand__icon:hover {
+    color: #f50057;
+    transition: all 0.5s;
   }
 `;

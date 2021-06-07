@@ -37,7 +37,7 @@ export const Sidebar = () => {
       </SidebarLogoContainer>
       <SidebarItemsContainer>
         {sidebarElements.map((s, i) => (
-          <SidebarItems key={i}>{s.name}</SidebarItems>
+          <SidebarItems key={i} className="main__section">{s.name}</SidebarItems>
         ))}
       </SidebarItemsContainer>
       <SidebarSocialContainer>
