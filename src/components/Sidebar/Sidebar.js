@@ -5,6 +5,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   SidebarContainer,
   SidebarItems,
@@ -17,27 +18,33 @@ import {
 
 export const Sidebar = () => {
   const sidebarElements = [
-    { name: "About" },
-    { name: "Experience" },
-    { name: "Projects" },
-    { name: "Skills" },
-    { name: "Contact" },
-    { name: "Blog" },
-    { name: "Resume" },
+    { name: "About", src: "about" },
+    { name: "Experience", src: "experience" },
+    { name: "Projects", src: "projects" },
+    { name: "Skills", src: "skills" },
+    { name: "Contact", src: "contact" },
+    { name: "Blog", src: "blog" },
+    { name: "Resume", src: "resume" },
   ];
   return (
     <SidebarContainer>
       <SidebarLogoContainer>
-        <SidebarLogoTitle>
-          Franco
-          <br />
-          Ruiz
-        </SidebarLogoTitle>
-        <SidebarLogoSubTitle>Frontend Developer</SidebarLogoSubTitle>
+        <Link to="/">
+          <SidebarLogoTitle>
+            Franco
+            <br />
+            Ruiz
+          </SidebarLogoTitle>
+          <SidebarLogoSubTitle>Frontend Developer</SidebarLogoSubTitle>
+        </Link>
       </SidebarLogoContainer>
       <SidebarItemsContainer>
         {sidebarElements.map((s, i) => (
-          <SidebarItems key={i} className="main__section">{s.name}</SidebarItems>
+          <Link to={`/` + s.src}>
+            <SidebarItems key={i} className="main__section">
+              {s.name}
+            </SidebarItems>
+          </Link>
         ))}
       </SidebarItemsContainer>
       <SidebarSocialContainer>

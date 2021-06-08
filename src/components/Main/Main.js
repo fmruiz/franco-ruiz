@@ -1,5 +1,11 @@
 import React from "react";
-import { MainButton, MainContainer, MainContent, MainSubTitle, MainTitle } from "./styles";
+import {
+  MainButton,
+  MainContainer,
+  MainContent,
+  MainSubTitle,
+  MainTitle,
+} from "./styles";
 
 export const Main = () => (
   <MainContainer>

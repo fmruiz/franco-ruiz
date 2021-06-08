@@ -2,10 +2,21 @@ import React from "react";
 import { Main } from "./components/Main/Main";
 import { Sidebar } from "./components/Sidebar/Sidebar";
 import { AppContainer } from "./styles";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { About } from "./components/About/About";
 
 export const App = () => (
-  <AppContainer>
-    <Sidebar />
-    <Main />
-  </AppContainer>
+  <Router>
+    <AppContainer>
+      <Sidebar />
+      <Switch>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/">
+          <Main />
+        </Route>
+      </Switch>
+    </AppContainer>
+  </Router>
 );

@@ -39,3 +39,7 @@ export const MainButton = styled.div`
     text-align: center;
     margin-top: 20px;
 `;
+
+export const MainImg = styled.img`
+    margin-left: 100px;
+`;

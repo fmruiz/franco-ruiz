@@ -7,6 +7,9 @@ export const SidebarContainer = styled.div`
   color: white;
   width: 7vw;
   height: 100vh;
+  a {
+    text-decoration: none;
+  }
   .main__section {
     transition: all 0.5s;
   }
