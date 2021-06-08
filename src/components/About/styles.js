@@ -4,6 +4,7 @@ export const AboutContainer = styled.div`
   display: flex;
   flex-direction: column;
   background-color: #1d1d1d;
+  margin-left: 7vw;
   width: 93vw;
 `;
 

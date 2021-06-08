@@ -7,6 +7,7 @@ export const SidebarContainer = styled.div`
   color: white;
   width: 7vw;
   height: 100vh;
+  position: fixed;
   a {
     text-decoration: none;
   }
