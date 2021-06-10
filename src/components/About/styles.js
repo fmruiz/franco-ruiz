@@ -20,9 +20,13 @@ export const AboutNumberTitle = styled.span`
   font-size: 30px;
 `;
 
+export const AboutContent = styled.div`
+  margin-top: 80px;
+`;
+
 export const AboutParagraph = styled.p`
   text-align: justify;
-  margin: 30px 0 0 0;
+  margin: 0 0 30px 0;
   color: white;
   font-size: 25px;
   margin-left: 160px;

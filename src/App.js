@@ -5,6 +5,7 @@ import { AppContainer } from "./styles";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { About } from "./components/About/About";
 import { Experience } from "./components/Experience/Experience";
+import { Personal } from "./components/Personal/Personal";
 
 export const App = () => (
   <Router>
@@ -16,6 +17,9 @@ export const App = () => (
         </Route>
         <Route path="/experience">
           <Experience />
+        </Route>
+        <Route path="/projects">
+          <Personal />
         </Route>
         <Route path="/">
           <Main />
