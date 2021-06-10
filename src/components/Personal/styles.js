@@ -65,8 +65,27 @@ export const PersonalImgCompany = styled.img`
   width: 50px;
   height: 50px;
   margin-right: 20px;
+  border-radius: 5px;
+  transition: all 0.5s;
+
+  :hover {
+    border-radius: 0px;
+    transition: all 0.5s;
+  }
 `;
 
 export const PersonalLogoContainer = styled.div`
   display: flex;
+
+  .personal__icons {
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    transition: all 0.5s;
+  }
+
+  .personal__icons:hover {
+    color: #f50057;
+    transition: all 0.5s;
+  }
 `;

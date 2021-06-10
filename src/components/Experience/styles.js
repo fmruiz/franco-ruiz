@@ -65,6 +65,13 @@ export const ExperienceImgCompany = styled.img`
   width: 50px;
   height: 50px;
   margin-right: 20px;
+  border-radius: 5px;
+  transition: all 0.5s;
+
+  :hover {
+    border-radius: 0px;
+    transition: all 0.5s;
+  }
 `;
 
 export const ExperiencePosition = styled.h5`
