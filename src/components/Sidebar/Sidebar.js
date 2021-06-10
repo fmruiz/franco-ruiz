@@ -10,6 +10,7 @@ import {
   SidebarContainer,
   SidebarItems,
   SidebarItemsContainer,
+  SidebarLink,
   SidebarLogoContainer,
   SidebarLogoSubTitle,
   SidebarLogoTitle,
@@ -48,9 +49,15 @@ export const Sidebar = () => {
         ))}
       </SidebarItemsContainer>
       <SidebarSocialContainer>
-        <FontAwesomeIcon icon={faTwitter} className="brand__icon" />
-        <FontAwesomeIcon icon={faLinkedin} className="brand__icon" />
-        <FontAwesomeIcon icon={faGithub} className="brand__icon" />
+        <SidebarLink href="https://twitter.com/francoRuiz_" target="_blank">
+          <FontAwesomeIcon icon={faTwitter} className="brand__icon" />
+        </SidebarLink>
+        <SidebarLink href="https://www.linkedin.com/in/francomruiz/" target="_blank">
+          <FontAwesomeIcon icon={faLinkedin} className="brand__icon" />
+        </SidebarLink>
+        <SidebarLink href="https://github.com/fmruiz" target="_blank">
+          <FontAwesomeIcon icon={faGithub} className="brand__icon" />
+        </SidebarLink>
       </SidebarSocialContainer>
     </SidebarContainer>
   );

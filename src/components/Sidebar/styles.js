@@ -78,6 +78,7 @@ export const SidebarSocialContainer = styled.div`
   justify-content: space-around;
   color: #777777;
   .brand__icon {
+    color: white;
     font-size: 20px;
     transition: all 0.5s;
   }
@@ -85,4 +86,8 @@ export const SidebarSocialContainer = styled.div`
     color: #f50057;
     transition: all 0.5s;
   }
+`;
+
+export const SidebarLink = styled.a`
+  text-decoration: none;
 `;
