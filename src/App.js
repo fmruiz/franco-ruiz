@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { About } from "./components/About/About";
 import { Experience } from "./components/Experience/Experience";
 import { Personal } from "./components/Personal/Personal";
+import { Contact } from "./components/Contact/Contact";
 
 export const App = () => (
   <Router>
@@ -20,6 +21,9 @@ export const App = () => (
         </Route>
         <Route path="/projects">
           <Personal />
+        </Route>
+        <Route path="/contact">
+          <Contact />
         </Route>
         <Route path="/">
           <Main />
