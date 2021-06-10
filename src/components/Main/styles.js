@@ -7,6 +7,7 @@ export const MainContainer = styled.div`
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 `;
 
 export const MainContent = styled.div`

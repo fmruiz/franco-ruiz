@@ -1,4 +1,5 @@
 import React from "react";
+import { EmailLink } from "../EmailLink/EmailLink";
 import {
   MainButton,
   MainContainer,
@@ -18,5 +19,6 @@ export const Main = () => (
       <MainSubTitle>Frontend Developer</MainSubTitle>
       <MainButton>Contact!</MainButton>
     </MainContent>
+    <EmailLink />
   </MainContainer>
 );
