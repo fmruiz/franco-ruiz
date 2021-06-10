@@ -89,3 +89,7 @@ export const PersonalLogoContainer = styled.div`
     transition: all 0.5s;
   }
 `;
+
+export const PersonalLink = styled.a`
+  text-decoration: none;
+`;

@@ -4,6 +4,7 @@ import {
   PersonalContent,
   PersonalImg,
   PersonalImgCompany,
+  PersonalLink,
   PersonalLogoContainer,
   PersonalNumberTitle,
   PersonalParagraph,
@@ -50,11 +51,21 @@ export const Personal = () => {
               <PersonalSubtitle>{p.subtitle}</PersonalSubtitle>
             </PersonalSubtitleImg>
             <PersonalLogoContainer>
-              <FontAwesomeIcon icon={faGithub} className="personal__icons" />
-              <FontAwesomeIcon
-                icon={faExternalLinkAlt}
-                className="personal__icons"
-              />
+              <PersonalLink
+                href={"https://github.com/fmruiz/react-discord-ui"}
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faGithub} className="personal__icons" />
+              </PersonalLink>
+              <PersonalLink
+                href={"https://discord-ui-puce.vercel.app/welcome"}
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  icon={faExternalLinkAlt}
+                  className="personal__icons"
+                />
+              </PersonalLink>
             </PersonalLogoContainer>
           </PersonalSubtitleContainer>
           <PersonalParagraph>{p.textOne}</PersonalParagraph>
