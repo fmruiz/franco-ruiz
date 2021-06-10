@@ -22,7 +22,6 @@ export const Sidebar = () => {
     { name: "About", src: "about" },
     { name: "Experience", src: "experience" },
     { name: "Projects", src: "projects" },
-    { name: "Skills", src: "skills" },
     { name: "Contact", src: "contact" },
     { name: "Blog", src: "blog" },
     { name: "Resume", src: "resume" },

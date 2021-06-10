@@ -76,9 +76,8 @@ export const SidebarItems = styled.p`
 export const SidebarSocialContainer = styled.div`
   display: flex;
   justify-content: space-around;
-  color: #777777;
   .brand__icon {
-    color: white;
+    color: #777777;
     font-size: 20px;
     transition: all 0.5s;
   }
